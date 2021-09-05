@@ -1,0 +1,25 @@
+CRITICAL - 2021-09-05 00:44:15 --> Argument 1 passed to CodeIgniter\Images\Handlers\BaseHandler::withFile() must be of the type string, null given, called in D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php on line 35
+#0 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(35): CodeIgniter\Images\Handlers\BaseHandler->withFile(NULL)
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-05 00:46:08 --> Argument 1 passed to CodeIgniter\Images\Handlers\BaseHandler::withFile() must be of the type string, null given, called in D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php on line 35
+#0 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(35): CodeIgniter\Images\Handlers\BaseHandler->withFile(NULL)
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-05 00:47:14 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 D:\xampp\htdocs\ci4_demo\system\Images\Handlers\GDHandler.php(307): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(44): CodeIgniter\Images\Handlers\GDHandler->save('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
